@@ -10,7 +10,7 @@ const app = express();
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://rentifypresedio.netlify.app',
     credentials: true,
     optionsSuccessStatus: 200
 };
